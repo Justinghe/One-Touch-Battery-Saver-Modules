@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battery Saver</string>
+    <string name="app_quick_settings">Quick Setting</string>
+    <string name="app_gps_name">GPS</string>
+    <string name="app_dc_name">Data Connect</string>
+    <string name="app_bt_name">Bluetooth</string>
+    <string name="app_wifi_name">WI-FI</string>
+    <string name="app_ar_name">Auto rotation</string>
+    <string name="app_st_name">Sleep Time</string>
+    <string name="app_sync_name">Sync</string>
+    <string name="app_bn_name">Brightness</string>
+    <string name="app_about_setting">About Settings</string>
+    <string name="app_about_setting_button">OK</string>
+    <string name="app_about_setting_explain1">"GPS enable apps to use GPS on the phone to pinpoint your location.
+Data connection enable apps to access mobile network.
+Bluetooth enable to share files to other devicesover short distances.
+WI-FI enable apps to exchange data or connect to the internet wirelessly.
+Auto rotation enable to totate screen according to the orientation of the device.
+If the device keeps inactivity for a period, device will enter the sleep mode.
+If set on, system will auto-sync data.
+Set automatic brightness or special brightness."</string>
+    <string name="app_about_setting_explain">Turn off some of these settings above may reduce the electricity consumer.</string>
+    <string name="app_self_started">Restrict Self-started</string>
+    <string name="app_self_started_explain">Turn on the switch to stop apps to self-start may reduce the electricity consumer.</string>
+    <string name="app_data_connect_permission">Disable data connection</string>
+    <string name="app_data_connect_permission_explain">Turn on the switch to disable the mobile data connection of apps, may reduce the electricity consumer.</string>
+    <string name="app_background_data">Restrict background data</string>
+    <string name="app_background_data_explain">Turn on the switch to restrict background mobile data of apps , may reduce the electricity consumer.</string>
+    <string name="app_show_notifications">Show notifications</string>
+    <string name="app_show_notifications_explain">Turn off the switch to stop apps to show notifications may reduce the electricity consumer.</string>
+    <string name="app_auto_app_killer">Memory Cleaner</string>
+    <string name="app_memory_cleaner_explain">Press button to free up unused memory and may kill background apps, in order to improve the running speed of the phone</string>
+    <string name="app_speed_up_memory">Clean up</string>
+    <string name="app_used_memory">Used memory :</string>
+    <string name="app_free_memory">Total memory :</string>
+    <string name="app_neglect_list_explain">Apps selected below ,will not be killed when using memory cleaner.</string>
+    <string name="app_auto_app_killer_explain">Auto kill the background apps may reduce the electricity consumer.</string>
+    <string name="app_clearing_name">Cleaning......</string>
+    <string name="app_please_wait">Please wait......</string>
+    <string name="app_clear_name">Clear</string>
+    <string name="app_neglect_list_name">White List Settings</string>
+    <string name="app_battery_saver_finish">Battery Saver</string>
+    <string name="app_battery_saver_finish_explain">Congratulations!</string>
+    <string name="app_battery_saver_finish_explain2">You have finished all battery saver guide. You are now ready to enjoy your device.</string>
+    <string name="oobe_btn_text_next">Next</string>
+    <string name="oobe_btn_text_back">Back</string>
+    <string name="oobe_btn_text_finish">Finish</string>
+    <string name="app_null_list">Null List</string>
+    <string name="app_data_connect_dialog_explain">"Data connection is disable for '%1$s' You can turn on the data connections for this app in 'Disable data connection'."</string>
+    <string name="app_disable_data_connect">Disable data connection</string>
+    <string name="app_OK">OK</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_disable_all_data">"Disable mobile data connection ?
+This feature may cause the apps that depend on mobile data connection to stop working.
+Disable all data connection?"</string>
+    <string name="app_restrict_background_data">"Restrict mobile background data?
+This feature may cause the apps that depend on mobile background data to stop working when only mobile networks are available.
+Restrict all mobile background data?"</string>
+    <string name="app_turn_off_notification">"Turn off all notification?
+If you turn off notifications for all apps,you may miss some important alerts and updates.
+Turn off all notifications?"</string>
+    <string name="mem_cleared">%1$dM memory cleared. %2$dM memory available.</string>
+    <string name="gemini_default_sim_never">Off</string>
+    <string name="gemini_3g_indic">3G</string>
+    <string name="mobile">Data connection</string>
+</resources>

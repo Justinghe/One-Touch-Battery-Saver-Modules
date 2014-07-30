@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.BatterySaver.utils.ProportionalOuterFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundProgress="http://schemas.android.com/apk/res/com.android.BatterySaver"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_area"
+        layout="@layout/title_panel" />
+
+    <RelativeLayout
+        android:id="@+id/Circle_button_control"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_area"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/memclean_bg"
+        android:orientation="vertical" >
+
+        <com.android.BatterySaver.utils.CircleProgress
+            android:id="@+id/circle_Bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_circle"
+            roundProgress:Inside_Interval="50"
+            roundProgress:Paint_Color="0xff45b5fd"
+            roundProgress:Paint_Width="20"
+            roundProgress:fill="false"
+            roundProgress:max="100" />
+
+        <Button
+            android:id="@+id/speed_up_memory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/memclean_button"
+            android:text="@string/app_speed_up_memory" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_circle" >
+
+            <com.android.BatterySaver.utils.RotatView
+                android:id="@+id/progress_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/memory_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/circle_Bar"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/used_memory_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip"
+                android:src="@drawable/used" />
+
+            <TextView
+                android:id="@+id/used_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_toRightOf="@id/used_memory_image"
+                android:drawablePadding="2.0dip"
+                android:text="@string/app_memory_cleaner_explain"
+                android:textSize="@dimen/explain_text_size10" />
+
+            <TextView
+                android:id="@+id/free_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:drawablePadding="2.0dip"
+                android:text="@string/app_memory_cleaner_explain"
+                android:textSize="@dimen/explain_text_size10" />
+
+            <ImageView
+                android:id="@+id/free_memory_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/free_memory"
+                android:src="@drawable/free" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="10.0dip"
+            android:layout_below="@id/memory_control" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/memory_cleaner_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Circle_button_control"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="10.0dip"
+        android:drawablePadding="2.0dip"
+        android:text="@string/app_memory_cleaner_explain"
+        android:textSize="@dimen/explain_text_size20" />
+
+    <Button
+        android:id="@+id/neglect_list_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:background="@drawable/memclean_white_list_button"
+        android:text="@string/app_neglect_list_name" />
+
+</com.android.BatterySaver.utils.ProportionalOuterFrame>

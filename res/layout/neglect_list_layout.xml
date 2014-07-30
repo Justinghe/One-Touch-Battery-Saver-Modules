@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.BatterySaver.utils.ProportionalOuterFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@id/title_area"
+        layout="@layout/title_panel" />
+
+    <TextView
+        android:id="@+id/neglect_list_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_area"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:drawablePadding="2.0dip"
+        android:text="@string/app_neglect_list_explain"
+        android:textSize="@dimen/explain_text_size16" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/neglect_list_explain"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/selectapp_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</com.android.BatterySaver.utils.ProportionalOuterFrame>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ics_blue_foreground">#ff33b5e5</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="setup_divider_color">#ff333333</color>
+    <color name="butonn_panel_color">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

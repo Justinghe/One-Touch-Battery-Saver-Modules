@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_title_size">22.0sp</dimen>
+    <dimen name="divider_height">3.0dip</dimen>
+    <dimen name="divider_margin_top">6.0dip</dimen>
+    <dimen name="divider_margin_bottom">7.0dip</dimen>
+    <item type="dimen" name="setup_title_height">14.999998%</item>
+    <item type="dimen" name="setup_border_width">4.999995%</item>
+    <dimen name="setup_margin_bottom">0.0dip</dimen>
+    <dimen name="explain_text_size20">20.0sp</dimen>
+    <dimen name="explain_text_size18">18.0sp</dimen>
+    <dimen name="explain_text_size16">16.0sp</dimen>
+    <dimen name="explain_text_size14">14.0sp</dimen>
+    <dimen name="explain_text_size12">12.0sp</dimen>
+    <dimen name="explain_text_size10">10.0sp</dimen>
+    <dimen name="list_iconitem_size">50.0dip</dimen>
+    <dimen name="list_text_width">200.0dip</dimen>
+    <dimen name="checkbox_marginRight">10.0dip</dimen>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light" >
+        
+      
+  </style>
+  
+    
+    
+      <style name="SetupTitle" > 
+          
+          <item name="android:textColor">@color/title_color</item>
+             <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/butonn_panel_color</item>
+     </style>
+     
+     <style name="TopDivider" > 
+          <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@color/setup_divider_color</item>
+     </style>
+         
+         
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
