@@ -304,7 +304,7 @@ public class AutoAppKillerActivity extends Activity {
 									+ ((AppInfo) mData.get(i)).appName)==true) {
 
 					}else {
-						//mActivityManager.forceStopPackage(((AppInfo)mData.get(i)).packageName);
+						mActivityManager.forceStopPackage(((AppInfo)mData.get(i)).packageName);
 						Log.i("chunleiwo", "packageName kill"
 								+ runningAppProcessInfo.processName);
 					}
